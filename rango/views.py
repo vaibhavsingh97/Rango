@@ -1,9 +1,11 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+
 from rango.forms import CategoryForm
 from rango.forms import PageForm
 # Importing category model
 from rango.models import Category, Page
+
+
 # Create your views here.
 
 
